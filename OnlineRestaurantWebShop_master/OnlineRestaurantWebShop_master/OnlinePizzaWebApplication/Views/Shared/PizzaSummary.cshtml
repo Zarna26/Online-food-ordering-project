@@ -1,0 +1,28 @@
+@model Pizzas
+<style>
+    .thumbnail-img {
+        width: 50px; /* Define the width you want */
+        height: 50px; /* Define the height you want */
+        object-fit: cover; /* Ensures proper resizing without distortion */
+    }
+</style>
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="thumbnail">
+        <img src="@Model.ImageUrl" alt="Picture of @Model.Name">
+        <div class="caption">
+            <h3 class="pull-right"> <b> @Model.Price.ToString("c")  </b> </h3>
+            <h3>
+                <a class="Namee" asp-controller="Pizzas" asp-action="DisplayDetails" asp-route-id="@Model.Id">@Model.Name</a>
+            </h3>
+            <h5><b>Category: @Model.Category.Name</b></h5>
+            <p>@Model.Description</p>
+        </div>
+        <div class="addToCart">
+            <p class="button">
+                <a class="btn btn-success" asp-controller="ShoppingCart" asp-action="AddToShoppingCart"
+                   asp-route-pizzaId="@Model.Id">Add Item</a>
+            </p>
+        </div>
+    </div>
+</div>
