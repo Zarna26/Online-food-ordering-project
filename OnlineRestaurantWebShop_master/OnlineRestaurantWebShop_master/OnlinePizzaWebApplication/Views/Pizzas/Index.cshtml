@@ -9,12 +9,7 @@
 
 <p>
     <a asp-action="Create" class="btn btn-success">Create New</a>
-    @*<a asp-action="Create" class="btn btn-primary">Create New</a>
-    <a asp-action="Create" class="btn btn-danger">Create New</a>
-    <a asp-action="Create" class="btn btn-default">Create New</a>
-    <a asp-action="Create" class="btn btn-info">Create New</a>
-    <a asp-action="Create" class="btn btn-success">Create New</a>
-    <a asp-action="Create" class="btn btn-warning">Create New</a>*@
+  
 </p>
 <table class="table">
     <thead>
@@ -32,7 +27,7 @@
                     @Html.DisplayNameFor(model => model.ImageUrl)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.IsPizzaOfTheWeek)
+                    IsItemOfTheWeek
                 </th>
             <th>
                 @Html.DisplayNameFor(model => model.Category)

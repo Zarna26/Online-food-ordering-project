@@ -285,31 +285,28 @@ namespace OnlinePizzaWebApplication.Repositories
                 cat1, cat2, cat3
             };
 
-            var piz1 = new Pizzas { Name = "Capricciosa", Price = 70.00M, Category = cat1, Description = "A normal pizza with a taste from the forest.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pizza_capricciosa.jpg", IsPizzaOfTheWeek = false };
-            var piz9 = new Pizzas { Name = "grilled  sandwich", Price =180M , Category =cat2, Description = "Tasty item ", ImageUrl = "https://wiproappliances.com/cdn/shop/articles/Veg_grilled_cheese_sandwich.jpg?v=1714126819 ", IsPizzaOfTheWeek = true  };
-            var piz10 = new Pizzas { Name = "Cup cake ", Price = 70M, Category = cat1, Description = "yummy desert ", ImageUrl = "https://5.imimg.com/data5/HH/VE/CN/SELLER-14291263/51lm18eet6l-500x500.jpg ", IsPizzaOfTheWeek = false };
+            var piz1 = new Pizzas { Name = "Grill Sandwich", Price = 70.00M, Category = cat1, Description = "A normal pizza with a taste from the forest.", ImageUrl = "https://media.istockphoto.com/id/1221237754/photo/two-halves-of-club-sandwich-on-white.jpg?s=612x612&w=0&k=20&c=jTThChWPJoFPxOdW1F4I-UzDqzS97iIgTm4-JJe-gOQ=", IsPizzaOfTheWeek = false };
+            var piz2 = new Pizzas { Name = "Jalebi", Price = 70.00M, Category = cat3, Description = "Veggie Pizza for vegetarians", ImageUrl = "https://media.istockphoto.com/id/1430753492/photo/indian-sweet-jalebi.jpg?s=612x612&w=0&k=20&c=NkShJtvnL1Y3jACu6arXGiOQKN5LtLi-DKak3SlX2N4=", IsPizzaOfTheWeek = false };
+            var piz3 = new Pizzas { Name = "Vada Pav", Price = 75.00M, Category = cat1, Description = "A nice tasting pizza from Hawaii.", ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyGwy8ST7060GUOFGyDLVxupv-w8IVKloYg&s", IsPizzaOfTheWeek = true };
+            var piz4 = new Pizzas { Name = "Spring roll", Price = 65.00M, Category = cat1, Description = "A basic pizza for everyone.", ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7NiFa9sNit78NjCeNtUNZPMcSys7xyRakpg&s", IsPizzaOfTheWeek = false };
+            //var piz5 = new Pizzas { Name = "Peri Peri Rolls", Price = 85.00M, Category = cat2, Description = "A special pizza with kebab for the hungry one.", ImageUrl = "https://i.ytimg.com/vi/lAV96itr_dc/maxresdefault.jpg", IsPizzaOfTheWeek = true };
+            var piz6 = new Pizzas { Name = "cappricciosa", Price = 80.00M, Category = cat1, Description = "A pizza with taste from the ocean.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/3/3f/Vegetarian_pizza.jpg", IsPizzaOfTheWeek = true };
 
-            var piz11 = new Pizzas { Name = " pineapple cake", Price =180M , Category =cat1 , Description = "Food provides essential nutrients for overall health and well-being ", ImageUrl = " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQolmgMbdAvqWPq5G__3EBi8kOymdkho87gjg&s", IsPizzaOfTheWeek = false };
+            var piz7 = new Pizzas { Name = "Hawai Pizza", Price = 70M, Category = cat1, Description = "yummy desert ", ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL4U-EIFRSWi-g7AU4orZUhbXVHa-EUlOvqA&s\t", IsPizzaOfTheWeek = false };
+            var piz8 = new Pizzas { Name = "Kebab", Price = 70.00M, Category = cat1, Description = "A pizza with taste from Spain, Barcelona", ImageUrl = "http://2.bp.blogspot.com/_3cSn3Qz_4IA/THkYqKwGw1I/AAAAAAAAAPg/ybKpvRbjDWE/s1600/matsl%C3%A4kten+002.JPG", IsPizzaOfTheWeek = false };
+            var piz9 = new Pizzas { Name = "Flying Jacob", Price = 89.00M, Category = cat2, Description = "Flying pizza from the sky, with taste of banana.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/6/64/Pizza_Hawaii_Special_p%C3%A5_Pizzeria_Papillon_i_Sala_1343.jpg", IsPizzaOfTheWeek = false };
 
-            var piz2 = new Pizzas { Name = "Veggie", Price = 70.00M, Category = cat3, Description = "Veggie Pizza for vegetarians", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/3/3f/Vegetarian_pizza.jpg", IsPizzaOfTheWeek = false };
-            var piz12 = new Pizzas { Name = "Spring Roll ", Price =80M , Category =cat2 , Description = "Food provides essential nutrients for overall health and well-being ", ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZty2iyAqikqUv-YkdZtEa68wFlShQ3nRuxQ&s ", IsPizzaOfTheWeek = false };
-            var piz13 = new Pizzas { Name = "peri peri rolls ", Price =100M , Category =cat2 , Description = "Food provides essential nutrients for overall health and well-being ", ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVznumjBu7pOhpG7dzSXUpSYhKmywlVqMfew&s ", IsPizzaOfTheWeek = true };
+            var piz10 = new Pizzas { Name = "Noodels", Price =180M , Category =cat1 , Description = "Food provides essential nutrients for overall health and well-being ", ImageUrl = "https://i.ytimg.com/vi/LqL37V-D2_U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA5_Su4pg5St-Yi-8U9aJIj_UwWdA", IsPizzaOfTheWeek = false };
 
-            var piz3 = new Pizzas { Name = "Hawaii", Price = 75.00M, Category = cat1, Description = "A nice tasting pizza from Hawaii.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/d/d1/Hawaiian_pizza_1.jpg", IsPizzaOfTheWeek = true };
-            var piz4 = new Pizzas { Name = "Margarita", Price = 65.00M, Category = cat1, Description = "A basic pizza for everyone.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg", IsPizzaOfTheWeek = false };
-            var piz5 = new Pizzas { Name = "Kebab Special", Price = 85.00M, Category = cat2, Description = "A special pizza with kebab for the hungry one.", ImageUrl = "http://2.bp.blogspot.com/_3cSn3Qz_4IA/THkYqKwGw1I/AAAAAAAAAPg/ybKpvRbjDWE/s1600/matsl%C3%A4kten+002.JPG", IsPizzaOfTheWeek = true };
-            var piz6 = new Pizzas { Name = "Pescatore", Price = 80.00M, Category = cat1, Description = "A pizza with taste from the ocean.", ImageUrl = "https://isinginthekitchen.files.wordpress.com/2014/07/dsc_0231.jpg", IsPizzaOfTheWeek = true };
-            var piz7 = new Pizzas { Name = "Barcelona", Price = 70.00M, Category = cat1, Description = "A pizza with taste from Spain, Barcelona", ImageUrl = "http://barcelona-home.com/blog/wp-content/upload/pizza/Pizzeria%20Los%20Amigos/pizza-jamon-dulce-y-champinone.jpg", IsPizzaOfTheWeek = false };
-            var piz8 = new Pizzas { Name = "Flying Jacob", Price = 89.00M, Category = cat2, Description = "Flying pizza from the sky, with taste of banana.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/6/64/Pizza_Hawaii_Special_p%C3%A5_Pizzeria_Papillon_i_Sala_1343.jpg", IsPizzaOfTheWeek = false };
+            var piz11 = new Pizzas { Name = "Beens ", Price =80M , Category =cat2 , Description = "Food provides essential nutrients for overall health and well-being ", ImageUrl = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiT04z-eX5nGg75-Coh_6vtHNwKpPJY3KP_PWKTJnkf1CzusNGHquIhHBqrK5HNsVzMh2i5OEzQOckLaKrUcd3_xSEJtdW8hYI26u4vDyc_8LJdFyUxkwUn-nPHsOmhlvyu1unEA/s1600/Pinto+Bean+%2526+Tomato+Salad+2020-400-44.JPG", IsPizzaOfTheWeek = false };
+            var piz12 = new Pizzas { Name = "Greens salad", Price =100M , Category =cat2 , Description = "Food provides essential nutrients for overall health and well-being ", ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZ-9FuK8T7QpXFg84L7Oa6IR_WsiwNxsnXA&s", IsPizzaOfTheWeek = true };
 
-            // Removed piz9 (Kentucky) and piz10 (La Carne)
-            // var piz9 = new Pizzas { Name = "Kentucky", Price = 69.00M, Category = cat3, Description = "A pizza from America with the taste of Kuntucky Chicken.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pizza_capricciosa.jpg", IsPizzaOfTheWeek = false };
-            // var piz10 = new Pizzas { Name = "La Carne", Price = 75.00M, Category = cat1, Description = "Italian pizza with lots of delicious meat.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pizza_capricciosa.jpg", IsPizzaOfTheWeek = false };
+
+            var piz13 = new Pizzas { Name = "Kentucky", Price = 69.00M, Category = cat3, Description = "A pizza from America with the taste of Kuntucky Chicken.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/3/3f/Vegetarian_pizza.jpg", IsPizzaOfTheWeek = false };
 
             var pizs = new List<Pizzas>()
             {
-                piz1, piz2, piz3, piz4, piz5, piz6, piz7, piz8,piz9,piz10,piz11,piz12,piz13 
-                // Removed piz9 and piz10 from this list
+                piz1, piz2, piz3, piz4, piz6, piz7, piz8,piz9,piz10,piz11,piz12,piz13 
             };
 
             var user1 = new IdentityUser { UserName = "user1@gmail.com", Email = "user1@gmail.com" };
@@ -338,7 +335,7 @@ namespace OnlinePizzaWebApplication.Repositories
                 new Reviews { User = user3, Title ="Great Veggie Pizza", Description="Good choice if you are a vegetarian.", Grade=5, Date=DateTime.Now.AddDays(-6), Pizza = piz2 },
                 new Reviews { User = user4, Title ="Amazing pineapples", Description="I love the taste of the pineapples on this pizza.", Grade=4, Date=DateTime.Now.AddDays(-4), Pizza = piz3 },
                 new Reviews { User = user1, Title ="Too simple", Description="Too simple pizza, for such a high price.", Grade=2, Date=DateTime.Now.AddDays(-2), Pizza = piz4 },
-                new Reviews { User = user5, Title ="Super Special", Description="Super special pizza, the best taste in the world!", Grade=5, Date=DateTime.Now.AddDays(-9), Pizza = piz5 },
+                new Reviews { User = user5, Title ="Super Special", Description="Super special pizza, the best taste in the world!", Grade=5, Date=DateTime.Now.AddDays(-9), Pizza = piz6 },
             };
 
             var ing1 = new Ingredients { Name = "Cheese" };

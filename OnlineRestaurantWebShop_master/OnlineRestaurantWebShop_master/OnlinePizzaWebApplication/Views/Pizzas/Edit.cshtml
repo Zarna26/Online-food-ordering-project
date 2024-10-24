@@ -8,7 +8,7 @@
 
 <form asp-action="Edit">
     <div class="form-horizontal">
-        <h4>Pizzas</h4>
+        <h4>Items</h4>
         <hr />
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="Id" />
@@ -44,7 +44,7 @@
             <div class="col-md-offset-2 col-md-10">
                 <div class="checkbox">
                     <input asp-for="IsPizzaOfTheWeek" />
-                    <label asp-for="IsPizzaOfTheWeek"></label>
+                    <label asp-for="IsPizzaOfTheWeek">IsItemOfTheWeek</label>
                 </div>
             </div>
         </div>
